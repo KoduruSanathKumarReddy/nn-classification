@@ -199,3 +199,4 @@ print(le.inverse_transform(x_single_prediction))
 
 
 ## RESULT
+Therefore a Neural network classification model is developed  and executed successfully.
