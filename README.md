@@ -13,6 +13,7 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
+![Screenshot 2023-08-27 at 7 50 25 PM](https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/a48cfe21-bf89-4f44-8c06-a37f9a389cb0)
 
 
 
@@ -180,21 +181,25 @@ print(le.inverse_transform(x_single_prediction))
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-<img width="555" alt="Screenshot 2023-08-24 at 10 17 33 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/102eb19c-fa0c-4d20-8740-b96a90d2a2e3">
+<img width="619" alt="Screenshot 2023-08-27 at 7 46 08 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/25a94e9a-4cea-478f-9146-2c1bbb0d6186">
+
 
 
 ### Classification Report
-<img width="628" alt="Screenshot 2023-08-24 at 9 08 15 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/3d1ac2ec-2764-4215-8ee1-4a870192fe8f">
+<img width="690" alt="Screenshot 2023-08-27 at 7 46 38 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/86e84587-3190-433b-9bcb-a27f6f42a643">
+
 
 
 
 ### Confusion Matrix
-<img width="560" alt="Screenshot 2023-08-24 at 9 07 51 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/cb73b956-2aa3-453d-a803-ef8a53bf2d3a">
+<img width="671" alt="Screenshot 2023-08-27 at 7 47 05 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/14a43782-8484-4e82-b869-99ac5f145c66">
+
 
 
 
 ### New Sample Data Prediction
-<img width="931" alt="Screenshot 2023-08-24 at 9 07 30 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/90a69d59-fa7f-4047-9ad9-2f4a7f7d3a80">
+<img width="837" alt="Screenshot 2023-08-27 at 7 47 21 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/b9de02f4-8cb0-4045-91c9-e46fcb41de99">
+
 
 
 ## RESULT
