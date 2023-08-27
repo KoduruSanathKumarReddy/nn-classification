@@ -13,7 +13,7 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-<img width="696" alt="Screenshot 2023-08-24 at 10 23 19 PM" src="https://github.com/KoduruSanathKumarReddy/nn-classification/assets/69503902/a8a41eb2-0c21-4afc-9ed9-359bc2676342">
+
 
 
 ## DESIGN STEPS
@@ -129,7 +129,6 @@ X_test_scaled[:,2] = scaler_age.transform(X_test[:,2].reshape(-1,1)).reshape(-1)
 ai_brain = Sequential([
   Dense(units = 8, input_shape=[8]),
   Dense(units =16, activation='relu'),
-  Dense(units = 32, activation='tanh'),
   Dense(units =4, activation ='softmax')
 ])
 ai_brain.compile(optimizer='adam',
